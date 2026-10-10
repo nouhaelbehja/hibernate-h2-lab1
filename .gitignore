@@ -1,13 +1,24 @@
-# Fichiers générés par Maven
-target/
-
-# Configuration IntelliJ
+# IntelliJ IDEA
 .idea/
 *.iml
+out/
 
-# Fichiers compilés
+# Maven
+target/
+
+# Java
 *.class
+*.log
 
-# Bases de données locales
+# H2 Database
 *.mv.db
 *.trace.db
+*.lock.db
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers sensibles
+.env
+.env.*

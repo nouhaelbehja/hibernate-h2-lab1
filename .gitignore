@@ -1,0 +1,13 @@
+# Fichiers générés par Maven
+target/
+
+# Configuration IntelliJ
+.idea/
+*.iml
+
+# Fichiers compilés
+*.class
+
+# Bases de données locales
+*.mv.db
+*.trace.db
